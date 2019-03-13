@@ -19,9 +19,12 @@ from numpy import array
 exec("TMP_DIR='tmp/'");
 exec("OBJ_DIR='objs/'");
 exec("LOG_DIR='logs/'");
-exec("WEB_COMMON=['/var/www/html','/var/www']");
-exec("WEB_COMMON=['/var/www/html/BHMcalc','/var/www/BHMcalc']+WEB_COMMON");
-exec("DATA_DIR='/var/www/html/BHMcalc/BHM/data/'");
+#exec("WEB_COMMON=['/var/www/html','/var/www']");
+#exec("WEB_COMMON=['/var/www/html/BHMcalc','/var/www/BHMcalc']+WEB_COMMON");
+#exec("DATA_DIR='/var/www/html/BHMcalc/BHM/data/'");
+exec("WEB_COMMON=['/persistent/web','/persistent']");
+exec("WEB_COMMON=['/persistent/web/BHMcalc','/persistent/BHMcalc']+WEB_COMMON");
+exec("DATA_DIR='/persistent/web/BHMcalc/BHM/data/'");
 
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 #BEHAVIOR
